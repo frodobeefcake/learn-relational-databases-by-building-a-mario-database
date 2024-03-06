@@ -263,3 +263,5 @@ more reset.sh
 psql -U postgres < db.sql
 cd ..
 psql --username=freecodecamp --dbname=postgres
+\c mario_database
+psql --username=freecodecamp --dbname=postgres
